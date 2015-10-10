@@ -1,0 +1,47 @@
+#Exercise 1
+#1)Write a command in the Idle shell that says â€œHello worldâ€
+print ("Hello world")
+
+#Exercise 2
+#2) Write a program that produces the following output: 
+#Hello World
+#I am in my ISD class right now
+print ("Hello World")
+print ("I am in my ISD class right now!")
+
+
+
+#Exercise 3
+#3) Write a program that asks the user for his/her name and produces an output like: 
+#Hi there, what is your name?
+#>User input to be read<
+#Hello 
+#(Users name)
+#How are you?
+       
+name = input("What is your name?")
+print (name)
+feel = input("How are you today?")
+print ("Hi",name)
+print ("I am",feel, " too")
+age = int(input("How old are you?"))
+print("you are",age, "years old")
+live = input("Where are you from?")
+print("Hello",name)
+print("you are",age, "years old")
+print("and you are from",live)
+
+#Exerise 4
+#4)  Write  a  program  that  asks  for  two  numbers  (Python  has  all  the  basic 
+#mathematical  functions  in  place,  like  +,- etc.),  adds  them  up  and  displays  the 
+#result
+       
+print("Let's do some calculation!")
+n1 = input("Tell me one number!")
+n2 = input("Good, give me another one!")
+print ("And now let's see in orther sum, subtraction, multiply and division!")
+print ("Sum:"(n1+n2))
+print ("Subtraction:"(n1 - n2))
+print ("Multiply:" (n1 * n2))
+print ("Division:" (n1 / n2))
+print ("Is it correct?")
